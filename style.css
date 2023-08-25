@@ -1,0 +1,113 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'bob'; /* Escolha um nome para a fonte */
+    src: url('fonte/Gobold\ Thin.otf') format('truetype');
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    
+}
+
+header {
+    background-color: #209c31;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.primeiro {
+    text-align: center;
+    padding: 20px;
+}
+
+.merchan {
+    font-size: 24px;
+    color: #209c31;
+}
+
+.carrossel {
+    text-align: center;
+    padding: 20px;
+}
+
+#livros img {
+    max-width: 100px; /* Largura máxima desejada */
+    height: auto; /* Altura será ajustada automaticamente para manter a proporção */
+    max-width : 100% ;
+}   
+
+
+#bookTitleInput {
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+}
+
+#addBookBtn,
+#deleteBooksBtn,
+#showBooksBtn {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #209c31;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#bookList {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#bookCount {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer.fundo {
+    background-color: #209c31;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 330px
+    ;
+}
+
+.texto-fundo {
+    font-size: 14px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        font-size: 20px;
+    }
+
+    .merchan {
+        font-size: 18px;
+    }
+
+    #bookTitleInput {
+        width: 100%;
+    }
+
+
+    img{
+        
+        width: 100%;
+    }
+
+
+}
